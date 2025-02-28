@@ -1,0 +1,1 @@
+gcc -fPIE -pie $1.opt.s -o program_optimized

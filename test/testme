@@ -1,0 +1,20 @@
+#!/bin/bash
+# build the .bc file
+echo "********************** run iwbc"
+../build/iwbc $1.iwb $1.bc
+
+# make the human-readable LLVM IR
+echo "********************** build .ll"
+llvm-dis $1.bc -o $1.ll
+
+# Compile to native executable with PIE
+echo "********************** Compile to native executable with PIE"
+llc -relocation-model=pic $1.bc -o $1.s
+gcc -fPIE -pie $1.s -o program
+
+# Run optimizations and generate executable
+echo "********************** Optimize and make executable"
+opt -O3 $1.bc -o $1.opt.bc
+llc -relocation-model=pic $1.opt.bc -o $1.opt.s
+gcc -fPIE -pie $1.opt.s -o program_optimized
+

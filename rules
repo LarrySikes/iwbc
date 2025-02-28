@@ -1,0 +1,19 @@
+Rules for this project - review before every answer you give me:
+
+1. Read any given .iwb file and produce a .ll file for processing by llvm.
+2. When a change to a file is made - verify the change affect on all other files.
+3. Use C as the base language.
+4. Use llvm functions to generate the .ll file. Always!!!
+5. The .ll file must contain all code required to produce a compiled working file that represents the given input.
+6. Do not loose functionability between re gen of files. No place holders - gen the code that is needed. If needed make it a function call.
+7. !!!!Never provide code snippets - Always provide complete source code.
+8. All code must contain trace and debug messages and be fully commented.
+9. Compiler must be extendable (easy to add new functions/token processing).
+10. No short cuts when presenting code to me.
+11. Include last mod date and header  in each file - the mod date will be todays date. Make sure you have today's date.
+12. Ask to see existing code before generating new code - often my code is more complete than yours
+13. Make code use target triple with default to linux.
+14. Make no asumptions - ask me first.
+15. Make these rules the most important thing you do - DO NOT FORGET TO APPLY TO EVERY ITERATION.
+:
+

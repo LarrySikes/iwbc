@@ -1,0 +1,69 @@
+' IWBasic Test Suite
+' Variable declarations and arithmetic
+LET counter = 100
+LET step = 5
+LET result = 0
+
+' Array operations
+DIM scores[10]
+FOR i = 0 TO 9
+    LET scores[i] = i * 10
+    PRINT "Score at position "
+    PRINT i
+    PRINT " is "
+    PRINT scores[i]
+NEXT
+
+' While loop with arithmetic
+WHILE counter > 0
+    LET result = result + step
+    LET counter = counter - step
+    PRINT "Counter: "
+    PRINT counter
+    PRINT " Result: "
+    PRINT result
+WEND
+
+' Nested if statements
+LET temperature = 75
+IF temperature > 80 THEN
+    PRINT "It's hot!"
+    IF temperature > 90 THEN
+        PRINT "It's very hot!"
+    ENDIF
+ELSE
+    IF temperature < 60 THEN
+        PRINT "It's cold!"
+    ELSE
+        PRINT "It's pleasant!"
+    ENDIF
+ENDIF
+
+' Select case with multiple options
+LET grade = 85
+SELECT grade
+    CASE 90
+        PRINT "Grade A"
+    CASE 80
+        PRINT "Grade B"
+    CASE 70
+        PRINT "Grade C"
+    CASE 60
+        PRINT "Grade D"
+ENDSELECT
+
+' Function definition and calls
+FUNCTION calculate_sum(x, y)
+    LET sum = x + y
+    RETURN sum
+END
+
+' Database operations
+DBCONNECT "testdb" "user" "password"
+DBEXECSQL "SELECT * FROM test_table"
+
+' GUI elements
+MESSAGEBOX "Test Complete" "Results" 1
+OPENWINDOW "Main Window" 800 600
+CONTROL BUTTON "Click Me" 10 10 100 30
+

@@ -1,0 +1,4 @@
+PRINT "Hello, World!"
+LET x = 42
+PRINT x
+
