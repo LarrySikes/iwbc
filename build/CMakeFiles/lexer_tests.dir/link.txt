@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIE  -pie CMakeFiles/lexer_tests.dir/test/lexer_test.c.o CMakeFiles/lexer_tests.dir/src/lexer.c.o -o lexer_tests 

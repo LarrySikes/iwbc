@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIE  -pie CMakeFiles/lexer_example.dir/examples/lexer_example.c.o CMakeFiles/lexer_example.dir/src/lexer.c.o -o lexer_example 

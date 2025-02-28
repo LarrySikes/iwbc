@@ -1,0 +1,12 @@
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/intrinsics_gen.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/omp_gen.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/acc_gen.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/iwbc.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/lexer_tests.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/lexer_example.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/edit_cache.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/rebuild_cache.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/list_install_components.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/install.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/install/local.dir
+/home/iwlnx/src/new1214/look/iwb_project/build/CMakeFiles/install/strip.dir
